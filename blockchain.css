@@ -1,0 +1,153 @@
+/* Reset some default styles */
+body, figure, h1, h2, h3, h4, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color:transparent;
+    color: #fff;
+    padding: 10px;
+    font-size: 50px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #6f04fb;
+  }
+  
+  section {
+    padding: 60px 0;
+  }
+  
+  h1, h2, h3, h4 {
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0d05ef;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #f50404;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .service {
+    text-align: center;
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .team-member img {
+    max-width: 100%;
+  }
+  
+  footer {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer p, footer ul {
+    margin-bottom: 10px;
+  }
+  
+  footer ul {
+    list-style-type: none;
+  }
+  
+  footer li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  footer a:hover {
+    color: #aaa;
+  }
+  
+  /* Media queries for mobile responsiveness */
+  @media screen and (max-width: 767px) {
+    header {
+      padding: 5px;
+    }
+  
+    nav li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    section {
+      padding: 40px 0;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    .services-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .btn {
+      display: block;
+      margin: 0 auto;
+    }
+  
+    .team-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    footer li {
+      display: block;
+      margin-bottom: 5px;
+    }
+  }
+  
